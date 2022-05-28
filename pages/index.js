@@ -12,7 +12,7 @@ export default function Home({ posts }) {
   return (
     <div className='container mx-auto px-10 mb-8'>
       <Head>
-        <title>Insight Universe</title>
+        <title>Insight Universe</title> 
         <meta name="description" content="Insight Universe" />
         <link rel="icon" href="/image/favicon.ico" />
       </Head>
