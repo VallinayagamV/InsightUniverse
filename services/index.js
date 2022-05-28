@@ -63,7 +63,7 @@ export const getCategories = async () => {
 
 export const getCategoriesList = async () => {
     const query = gql`
-      query GetGategories {
+      query GetGategoriesList {
           categories(orderBy: priority_ASC) {
             name
             slug
